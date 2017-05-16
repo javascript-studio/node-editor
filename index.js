@@ -16,7 +16,7 @@ module.exports = function (file, opts, cb) {
 
   const ps = spawn(bin, args.concat([file]), { stdio: 'inherit' });
 
-  ps.on('exit', (code, sig) => {
-    if (typeof cb === 'function') { cb(code, sig); }
+  ps.on('exit', (err) => {
+    if (typeof cb === 'function') { cb(err.code === 'ENOENT' ? 127 : 1, null); }
   });
 };
