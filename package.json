@@ -4,9 +4,15 @@
   "description": "Launch $EDITOR in your program",
   "main": "index.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "@studio/eslint-config": "^1.0.2",
+    "eslint": "^4.19.1"
+  },
   "scripts": {
-    "test": "echo 'No tests'; exit 1"
+    "test": "eslint ."
+  },
+  "eslintConfig": {
+    "extends": "@studio"
   },
   "repository": {
     "type": "git",
@@ -25,6 +31,6 @@
   },
   "license": "MIT",
   "engine": {
-    "node": ">=0.6"
+    "node": ">=6"
   }
 }
