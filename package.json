@@ -1,12 +1,8 @@
 {
-  "name": "editor",
+  "name": "@studio/editor",
   "version": "1.0.0",
-  "description": "launch $EDITOR in your program",
+  "description": "Launch $EDITOR in your program",
   "main": "index.js",
-  "directories": {
-    "example": "example",
-    "test": "test"
-  },
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
@@ -14,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/substack/node-editor.git"
+    "url": "git://github.com/javascript-studio/studio-editor.git"
   },
-  "homepage": "https://github.com/substack/node-editor",
+  "homepage": "https://github.com/javascript-studio/studio-editor",
   "keywords": [
     "text",
     "edit",
