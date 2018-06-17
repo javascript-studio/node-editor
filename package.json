@@ -5,11 +5,15 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "@studio/changes": "^1.4.0",
     "@studio/eslint-config": "^1.0.2",
     "eslint": "^4.19.1"
   },
   "scripts": {
-    "test": "eslint ."
+    "test": "eslint .",
+    "preversion": "npm test",
+    "version": "changes",
+    "postversion": "git push --follow-tags && npm publish"
   },
   "eslintConfig": {
     "extends": "@studio"
