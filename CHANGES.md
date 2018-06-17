@@ -1,5 +1,9 @@
 # Changes
 
+## 1.1.1
+
+- Fix wrongly applied commit
+
 ## 1.1.0
 
 Fork `editor` to `@studio/editor` to get [node-editor#13][] into the project.
