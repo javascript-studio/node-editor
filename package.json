@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "@studio/changes": "^1.4.0",
+    "@studio/changes": "^1.4.1",
     "@studio/eslint-config": "^1.0.2",
     "eslint": "^4.19.1"
   },
